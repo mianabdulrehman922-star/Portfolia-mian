@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Abdulrehman — Front-End Web Developer</title>
+<meta name="description" content="Abdulrehman is a Front-End Web Developer and BS Software Engineering student building modern, responsive, user-focused websites with HTML, CSS, JavaScript and WordPress." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🅰️</text></svg>" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="scroll-progress"></div>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="brand">ABDULREHMAN</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn btn-primary btn-sm nav-cta">Let's Work Together</a>
+    </nav>
+    <button class="hamburger" aria-label="Menu" aria-expanded="false">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section id="home" class="hero">
+  <div class="bg-glow g1"></div>
+  <div class="bg-glow g2"></div>
+  <div class="container hero-grid">
+    <div>
+      <span class="hero-eyebrow"><span class="dot"></span>Available for freelance work</span>
+      <h1><span class="name">Hi, I'm <span class="grad-text">Abdulrehman</span></span></h1>
+      <div class="role">Front-End Web Developer</div>
+      <p class="lead">Build modern, responsive and user-focused websites with clean design and interactive experiences.</p>
+      <p class="lead">I create modern websites using HTML, CSS, JavaScript, WordPress and other modern web technologies — focused on clean code and interfaces people actually enjoy using.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View My Projects</a>
+        <a href="#contact" class="btn btn-outline">Let's Work Together</a>
+      </div>
+      <div class="hero-socials">
+        <a class="social-btn" aria-disabled="true" title="GitHub — coming soon" tabindex="-1">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.7 5.6.7 12c0 5.1 3.3 9.4 7.9 11 .6.1.8-.3.8-.6v-2.1c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11 11 0 015.9 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.6 7.9-5.9 7.9-11C23.3 5.6 18.3.5 12 .5z"/></svg>
+        </a>
+        <a class="social-btn js-whatsapp" href="#" title="Chat on WhatsApp" target="_blank" rel="noopener noreferrer">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.81L2 22l5.42-1.35c1.38.76 2.96 1.19 4.62 1.19h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.12h-.01c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.79.85-3.07-.2-.31a8.16 8.16 0 01-1.25-4.36c0-4.5 3.66-8.16 8.16-8.16 4.5 0 8.16 3.66 8.16 8.16 0 4.5-3.66 8.16-8.16 8.16z"/></svg>
+        </a>
+        <a class="social-btn js-email" href="#" title="Send an email">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M4 6l8 7 8-7"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="dev-card-wrap" aria-hidden="true">
+      <div class="dev-orb"></div>
+      <div class="code-window">
+        <div class="code-window-bar"><span></span><span></span><span></span><span class="code-window-title">developer.js</span></div>
+        <div class="code-window-body">
+<span class="c-key">const</span> <span class="c-prop">developer</span> <span class="c-punc">=</span> <span class="c-punc">{</span><br>
+&nbsp;&nbsp;<span class="c-prop">name:</span> <span class="c-str">"Abdulrehman"</span><span class="c-punc">,</span><br>
+&nbsp;&nbsp;<span class="c-prop">role:</span> <span class="c-str">"Front-End Developer"</span><span class="c-punc">,</span><br>
+&nbsp;&nbsp;<span class="c-prop">stack:</span> <span class="c-punc">[</span><span class="c-str">"HTML"</span><span class="c-punc">,</span> <span class="c-str">"CSS"</span><span class="c-punc">,</span> <span class="c-str">"JS"</span><span class="c-punc">]</span><span class="c-punc">,</span><br>
+&nbsp;&nbsp;<span class="c-prop">learning:</span> <span class="c-key">true</span><span class="c-punc">,</span><br>
+&nbsp;&nbsp;<span class="c-comment">// always building something</span><br>
+<span class="c-punc">};</span>
+        </div>
+      </div>
+      <div class="floating-badge" style="top:6%; right:0%;"><span class="dot-icon" style="background:#E44D26;"></span>HTML5</div>
+      <div class="floating-badge" style="top:38%; left:-4%;"><span class="dot-icon" style="background:#264DE4;"></span>CSS3</div>
+      <div class="floating-badge" style="bottom:14%; right:2%;"><span class="dot-icon" style="background:#F7DF1E;"></span>JavaScript</div>
+      <div class="floating-badge" style="bottom:-2%; left:16%;"><span class="dot-icon" style="background:#21759B;"></span>WordPress</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow2">01 · About</span>
+      <h2>About Me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="reveal">
+        <p>I'm Abdulrehman, a BS Software Engineering student currently studying in Semester 3 at Virtual University of Pakistan. I am passionate about web development and creating modern, responsive and user-friendly websites.</p>
+        <p>I work with HTML, CSS, JavaScript and WordPress, and I continuously improve my skills by building real-world projects — from restaurant and fitness sites to educational platforms.</p>
+      </div>
+      <div class="info-card reveal">
+        <div class="info-row"><span>Name</span><span>Abdulrehman</span></div>
+        <div class="info-row"><span>Education</span><span>BS Software Engineering</span></div>
+        <div class="info-row"><span>Semester</span><span>3rd Semester</span></div>
+        <div class="info-row"><span>University</span><span>Virtual University of Pakistan</span></div>
+        <div class="info-row"><span>Role</span><span>Front-End Web Developer</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section id="skills" class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow2">02 · Skills</span>
+      <h2>Tools &amp; Technologies</h2>
+      <p>What I currently work with, and how much I've used each one — as a growing developer, not an expert in everything.</p>
+    </div>
+    <div class="grid grid-3">
+
+      <div class="skill-card reveal">
+        <div class="skill-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 3l1.5 17L12 22l6.5-2L20 3H4z"/><path d="M8 7h8l-.5 6H9.2l.2 2.3L12 16l2.6-.7.2-2.3"/></svg></div>
+        <h3>HTML5</h3>
+        <p>Semantic, accessible markup as the foundation of every project.</p>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-level="85%"></div></div>
+        <div class="skill-level"><span>Comfortable</span><span>85%</span></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 3l1.5 17L12 22l6.5-2L20 3H4z"/><path d="M15.5 8H8.2l.3 3h6.7l-.4 4.3L12 16l-2.8-.7-.2-2"/></svg></div>
+        <h3>CSS3</h3>
+        <p>Layouts, animations and responsive styling with Flexbox and Grid.</p>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-level="80%"></div></div>
+        <div class="skill-level"><span>Comfortable</span><span>80%</span></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M9 16.5a1.5 1.5 0 003 0V9M15 9v4.5a1.8 1.8 0 103.5.5"/></svg></div>
+        <h3>JavaScript</h3>
+        <p>DOM interactivity, form handling and dynamic front-end logic.</p>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-level="65%"></div></div>
+        <div class="skill-level"><span>Growing</span><span>65%</span></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.5 6 3.5 9s-1 6.5-3.5 9c-2.5-2.5-3.5-6-3.5-9s1-6.5 3.5-9z"/></svg></div>
+        <h3>WordPress</h3>
+        <p>Building and customizing WordPress sites for real clients.</p>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-level="60%"></div></div>
+        <div class="skill-level"><span>Growing</span><span>60%</span></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></div>
+        <h3>Elementor</h3>
+        <p>Page-building and layout design without writing raw markup.</p>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-level="60%"></div></div>
+        <div class="skill-level"><span>Growing</span><span>60%</span></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M9 18h6"/></svg></div>
+        <h3>Responsive Web Design</h3>
+        <p>Mobile-first layouts that adapt cleanly across every screen size.</p>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-level="80%"></div></div>
+        <div class="skill-level"><span>Comfortable</span><span>80%</span></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg></div>
+        <h3>Firebase / Database</h3>
+        <p>Connecting front-end projects to Firestore for auth and data.</p>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-level="50%"></div></div>
+        <div class="skill-level"><span>Learning</span><span>50%</span></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg></div>
+        <h3>GitHub</h3>
+        <p>Version control and hosting projects with GitHub Pages.</p>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-level="55%"></div></div>
+        <div class="skill-level"><span>Growing</span><span>55%</span></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l10 18H2z"/></svg></div>
+        <h3>Vercel</h3>
+        <p>Deploying and previewing front-end projects quickly.</p>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-level="55%"></div></div>
+        <div class="skill-level"><span>Growing</span><span>55%</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects" class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow2">03 · Projects</span>
+      <h2>Featured Projects</h2>
+      <p>A selection of websites and real-world projects I've built.</p>
+    </div>
+    <div class="grid grid-3" id="projectsGrid"></div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section id="services" class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow2">04 · Services</span>
+      <h2>What I Can Build</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="service-card reveal">
+        <div class="service-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="12" rx="1"/><path d="M8 20h8M12 16v4"/></svg></div>
+        <h3>Responsive Websites</h3>
+        <p>Modern websites that work perfectly across desktop, tablet and mobile.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 4L2 12l6 8M16 4l6 8-6 8"/></svg></div>
+        <h3>Front-End Development</h3>
+        <p>Clean and interactive interfaces using HTML, CSS and JavaScript.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.5 6 3.5 9s-1 6.5-3.5 9c-2.5-2.5-3.5-6-3.5-9s1-6.5 3.5-9z"/></svg></div>
+        <h3>WordPress Websites</h3>
+        <p>Professional WordPress websites built using WordPress and Elementor.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+        <h3>Landing Pages</h3>
+        <p>High-converting and visually attractive landing pages.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 019-9M21 12a9 9 0 01-9 9"/><path d="M12 3v9l6 3"/></svg></div>
+        <h3>Website Redesign</h3>
+        <p>Modern redesigns that bring outdated websites up to today's standard.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg></div>
+        <h3>Portfolio Websites</h3>
+        <p>Professional personal and business portfolios that make a strong first impression.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY WORK WITH ME ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow2">05 · Why Me</span>
+      <h2>Why Work With Me</h2>
+    </div>
+    <div class="grid grid-4">
+      <div class="why-card reveal">
+        <div class="why-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.5 5.5 21l2-7.5L2 9h7z"/></svg></div>
+        <div><h3>Clean &amp; Modern Design</h3><p>Interfaces that feel considered, not templated.</p></div>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M9 18h6"/></svg></div>
+        <div><h3>Responsive Development</h3><p>Every project works cleanly on any screen size.</p></div>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+        <div><h3>User-Focused Experience</h3><p>Built around how people actually use a site.</p></div>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg></div>
+        <div><h3>Continuous Learning</h3><p>Always building, always picking up something new.</p></div>
+      </div>
+    </div>
+    <p class="why-statement reveal">"I focus on creating websites that are not only visually attractive but also responsive, easy to use and professional."</p>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section id="education" class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow2">06 · Education</span>
+      <h2>Education</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <span class="timeline-dot"></span>
+        <h3>BS Software Engineering</h3>
+        <div class="school">Virtual University of Pakistan · Semester 3</div>
+        <span class="status-badge"><span class="dot"></span>Currently Studying</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow2">07 · Contact</span>
+      <h2>Let's Build Something Great Together</h2>
+      <p>Have a website idea, project or business concept? Let's discuss how I can help bring it to life.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info-card reveal">
+        <div class="contact-line">
+          <div class="icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.81L2 22l5.42-1.35c1.38.76 2.96 1.19 4.62 1.19h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.12h-.01c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.79.85-3.07-.2-.31a8.16 8.16 0 01-1.25-4.36c0-4.5 3.66-8.16 8.16-8.16 4.5 0 8.16 3.66 8.16 8.16 0 4.5-3.66 8.16-8.16 8.16z"/></svg></div>
+          <div><div class="label">Phone / WhatsApp</div><div class="value js-phone-text">0307 9657528</div></div>
+        </div>
+        <div class="contact-line">
+          <div class="icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M4 6l8 7 8-7"/></svg></div>
+          <div><div class="label">Email</div><div class="value js-email-text">mianabdulrehman922@gmail.com</div></div>
+        </div>
+        <a href="#" class="btn btn-primary btn-block js-whatsapp" target="_blank" rel="noopener noreferrer" style="margin-top:20px;">Chat on WhatsApp</a>
+      </div>
+
+      <form id="contactForm" class="contact-form reveal">
+        <div id="contactFormMsg" class="form-msg"></div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="contactName">Full Name</label>
+            <input type="text" id="contactName" name="name" placeholder="Your name" />
+            <div class="field-error">Please enter your full name.</div>
+          </div>
+          <div class="form-group">
+            <label for="contactEmail">Email</label>
+            <input type="email" id="contactEmail" name="email" placeholder="you@example.com" />
+            <div class="field-error">Please enter a valid email address.</div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="contactSubject">Subject</label>
+          <input type="text" id="contactSubject" name="subject" placeholder="What's this about?" />
+          <div class="field-error">Please enter a subject.</div>
+        </div>
+        <div class="form-group">
+          <label for="contactMessage">Message</label>
+          <textarea id="contactMessage" name="message" rows="5" placeholder="Tell me about your project…"></textarea>
+          <div class="field-error">Please enter your message.</div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">ABDULREHMAN</div>
+        <p>Front-End Web Developer | BS Software Engineering Student</p>
+      </div>
+      <nav class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-contact">
+        <div class="js-email-text">mianabdulrehman922@gmail.com</div>
+        <div class="js-phone-text">0307 9657528</div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span class="js-year"></span> Abdulrehman. All Rights Reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="wa-float js-whatsapp" aria-label="Chat on WhatsApp" target="_blank" rel="noopener noreferrer">
+  <svg width="27" height="27" viewBox="0 0 24 24" fill="#fff"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.81L2 22l5.42-1.35c1.38.76 2.96 1.19 4.62 1.19h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.12h-.01c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.79.85-3.07-.2-.31a8.16 8.16 0 01-1.25-4.36c0-4.5 3.66-8.16 8.16-8.16 4.5 0 8.16 3.66 8.16 8.16 0 4.5-3.66 8.16-8.16 8.16z"/></svg>
+</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
